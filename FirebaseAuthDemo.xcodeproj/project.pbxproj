@@ -51,7 +51,7 @@
 		AE8FA7BE2B50725B00D948EC /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = AE8FA7BD2B50725B00D948EC /* FirebaseAppDistribution-Beta */; };
 		AE8FA7C02B50725B00D948EC /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AE8FA7BF2B50725B00D948EC /* FirebaseAuthCombine-Community */; };
 		AE8FA7C22B50725B00D948EC /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = AE8FA7C12B50725B00D948EC /* FirebaseCrashlytics */; };
-		AE8FA7C42B5170EE00D948EC /* GLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8FA7C32B5170EE00D948EC /* GLoginButton.swift */; };
+		AEC7B8F32B51B21500D4D25F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7B8F22B51B21500D4D25F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +64,7 @@
 		AE8FA76B2B50283B00D948EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8FA76D2B50283B00D948EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8FA7B12B502F2D00D948EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		AE8FA7C32B5170EE00D948EC /* GLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLoginButton.swift; sourceTree = "<group>"; };
+		AEC7B8F22B51B21500D4D25F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 				AE8FA76A2B50283B00D948EC /* LaunchScreen.storyboard */,
 				AE8FA7B12B502F2D00D948EC /* GoogleService-Info.plist */,
 				AE8FA76D2B50283B00D948EC /* Info.plist */,
-				AE8FA7C32B5170EE00D948EC /* GLoginButton.swift */,
+				AEC7B8F22B51B21500D4D25F /* HomeViewController.swift */,
 			);
 			path = FirebaseAuth;
 			sourceTree = "<group>";
@@ -263,9 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8FA7642B50283A00D948EC /* ViewController.swift in Sources */,
-				AE8FA7C42B5170EE00D948EC /* GLoginButton.swift in Sources */,
 				AE8FA7602B50283A00D948EC /* AppDelegate.swift in Sources */,
 				AE8FA7622B50283A00D948EC /* SceneDelegate.swift in Sources */,
+				AEC7B8F32B51B21500D4D25F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

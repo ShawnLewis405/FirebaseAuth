@@ -38,6 +38,10 @@ class ViewController: UIViewController {
             
             Auth.auth().signIn(with: credential) { result, error in
                     // At this point, the user is signed in
+                
+                self.addChild(HomeViewController())
+                self.view.addSubview(HomeViewController().view)
+                
             }
             
                 //let name = user.profile?.name
