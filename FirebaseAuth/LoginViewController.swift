@@ -44,8 +44,8 @@ class ViewController: UIViewController {
                 
             }
             
-                //let name = user.profile?.name
-                //print(name)
+                let name = user.profile?.name
+                print(name)
         }
     }
     
